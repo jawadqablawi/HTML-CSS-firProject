@@ -490,11 +490,27 @@ body {
     
 }
 @media (max-width: 767px) {
-    .contact .info .label
-        .contact .info .link{
-            font-size: 25px;
+    .contact .info .label {
+        font-size: 20px;
     }
-    
+
+    .contact .info .link {
+        font-size: 18px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .contact .info {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contact .info .social {
+        font-size: 16px;
+        gap: 10px;
+    }
 }
 /* end contact  */
 /* start footer */
